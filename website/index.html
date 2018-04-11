@@ -8,23 +8,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script type="text/javascript" src="js/video-list.js"></script>
     <script type="text/javascript" src="js/otarioPlayer.js"></script>
 </head>
 <body>
 <div id="bgndVideo" class="player"
-     data-property='{"videoURL":"https://www.youtube.com/watch?v=s5-fdzY1JGw", "containment":"body", "autoPlay":true, "mute":false, "startAt":5, "stopAt":10, "loop":true, "opacity":1}'></div>
-<div id="creditos">Vídeos: <a href="https://omelete.com.br">Omelete</a>, <a href="https://tvquase.com">TV Quase</a>.
+data-property='{"videoURL":"https://www.youtube.com/watch?v=s5-fdzY1JGw", "containment":"body", "showControls": false, "autoPlay":true, "mute":false, "startAt":5, "stopAt":10, "loop":true, "opacity":1}'></div>
+<div id="rodape"><a id="link-video" href="https://www.youtube.com/watch?v=s5-fdzY1JGw">Clica aqui pra ver o vídeo todo, dodói!<br/>
+    <span id="nome-video">O Javascript bateu com a van no caminho</span></a><br/>
+    <span id="creditos">Créditos do vídeo: <a href="https://omelete.com.br">Omelete</a> / <a href="https://tvquase.com">TV Quase</a></span>
 </div>
-<script type="application/json" id="video-list">
-    {
-        "videos": [
-            {
-                "url": "https://www.youtube.com/watch?v=s5-fdzY1JGw",
-                "startAt": 5,
-                "stopAt": 9.5
-            }
-        ]
-    }
-</script>
 </body>
 </html>
