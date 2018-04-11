@@ -1,1 +1,1 @@
-web: env NGINX_ROOT=website/
+web: env NGINX_ROOT=website
